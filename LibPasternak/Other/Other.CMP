@@ -1,0 +1,15 @@
+Component   : DBRIDGE-5.08
+PCB Library : Other.PcbLib
+Date        : 08.12.2016
+Time        : 21:09:29
+
+
+
+Dimension : 0.92 x 0.288 in
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Top Overlay                 0          2        2       0        0
+ Multi Layer                 4          0        0       0        0
+--------------------------------------------------------------------
+ Total                       4          2        2       0        0

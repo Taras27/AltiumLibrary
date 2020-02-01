@@ -1,0 +1,18 @@
+[Plugin]
+Name=textdisplay
+Caption=Text Display Services
+Description=POSIX compatible interface for textdisplay devices.
+SourceDir=services\posix\devio\textdisplay\src
+CompileOption0=-I"$(SERROOT)\posix\internal"
+Implement=textdisplay
+Require0=posix_devio
+Bitmap=textdisplay.bmp
+
+[Instance]
+Caption=Text Display Context
+Description=POSIX compatible interface for textdisplay devices.
+Require0=textdisplay_adaptor
+MultipleLinks=True
+GenerateName=True
+
+
